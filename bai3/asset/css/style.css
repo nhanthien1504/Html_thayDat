@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.background{
+  background-color: #a06d21;
+
+}
+.background .section {
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/asset/img/hinh-nen-dep-cho-may-tinh-nature-wallpapers-nature-wallpaper-latest-beautiful-wallpapers-800x480.jpg);
+  padding-bottom: 50px;
+  background-size: 300px 300px;
+  
+}
+
+.section .header {
+  color: #ffcc00;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+.section .text{
+  position: relative;
+  color: #fff;
+  padding: 50px;
+}
+

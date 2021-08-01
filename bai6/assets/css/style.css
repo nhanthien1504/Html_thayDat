@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px double red;
+  color: red;
+}
+
+.red-text{
+    color: red;
+    font-weight: bold;
+}
+
+p:first-letter {
+  margin: 5px 0 0 5px;
+  color: red;
+  font-size: 60px;
+}
+
+first-text {
+  text-align: left;
+}
+
+h3 {
+  color: white;
+  background-color: orange;
+  text-align: right;
+}
+.second-text{
+    text-align: right;
+}
