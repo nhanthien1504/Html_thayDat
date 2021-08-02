@@ -1,0 +1,38 @@
+h1,li,ul,img{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+}
+
+h1.title{
+    text-align: center;
+    color: red;
+}
+
+#content {
+  position: relative;
+  padding-left: 280px;
+  font-size: 17px;
+  line-height: 24px;
+}
+.img{
+    text-align: left;
+    position: absolute;
+}
+.intro span{
+    color: white;
+    background-color: red;
+    display: inline-block;
+}
+
+.sub-intro{
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.sub-contact{
+    padding-left: 20px;
+}
