@@ -1,0 +1,15 @@
+table,tr,th,td{
+    border-collapse: collapse;
+}
+
+table,tr,th,td{
+    border: 1px solid red
+}
+
+th{
+    color: #fff;
+    background-color: #CC0033;
+}
+tr{
+    text-align: center;
+}

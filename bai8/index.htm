@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo bảng</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <h1 id="header">Các Món ngon Hà Nội</h1>
+    <div id="img"><img src="./assets/img/Mon-ngon-ha-noi (1).jpg" alt="hinh" width="250px"></div>
+    <div id="content">
+        <table>
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên món ăn</th>
+                </tr>
+            </thead>
+            <tbody id ="row">
+                <tr>
+                    <td>1</td>
+                    <td>Bánh cuốn thanh trì</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Xôi Hà Nội</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bánh cuốn thanh trì</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Xôi Hà Nội</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
+<script>
+    const parentList = document.getElementById('row')
+    const childList = parentList.children
+    for(let i = 0; i < childList.length; i++){
+        if(i %2 ==0){
+            childList[i].style.backgroundColor = "white"
+        }
+    }
+</script>

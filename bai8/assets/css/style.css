@@ -1,0 +1,44 @@
+h1,
+table,
+tr,
+th,
+td {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  text-align: center;
+  color: orange;
+}
+
+#img {
+  float: left;
+  position: absolute;
+}
+
+#content {
+  position: relative;
+  padding-left: 280px;
+  text-align: center;
+  line-height: 24px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+tr,
+th,
+td {
+  border: 1px solid black;
+}
+th {
+  background-color: #CC6600;
+  color: #fff;
+}
+
+#row{
+  background-color: #FFEDCA;
+}
