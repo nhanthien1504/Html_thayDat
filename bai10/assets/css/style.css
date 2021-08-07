@@ -1,0 +1,42 @@
+tr,td{
+  border: 1px solid black;
+}
+#title {
+  font-weight: bold;
+  color: white;
+  background-color: red;
+  text-align: right;
+  font-size: 24px;
+}
+#logo{
+  text-align: center;
+}
+
+.sub-title {
+  color: red;
+  background-color: #ffbbbb;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.icon {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.style-left {
+  padding-left: 40px;
+  list-style-type: circle;
+}
+
+.style-right {
+  padding-left: 40px;
+}
+
+table {
+  border-collapse: collapse;
+}
