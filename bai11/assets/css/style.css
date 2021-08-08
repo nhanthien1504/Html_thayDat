@@ -1,0 +1,26 @@
+tbody>tr,td{
+  border: 1px solid black;
+  line-height: 30px;
+  background-color: aquamarine;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.title{
+  text-align: center;
+  font-size: 20px;
+  color: coral;
+}
+input{
+  background-color: #fff;
+}
+button{
+    margin: auto;
+    display: block;
+}
+
+#id_hien, #pass{
+  text-align: center;
+}
